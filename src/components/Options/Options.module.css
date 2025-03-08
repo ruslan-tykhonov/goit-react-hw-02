@@ -1,0 +1,21 @@
+.container {
+  margin-top: 20px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.btn {
+  border-radius: 30px;
+  margin-right: 20px;
+  padding: 8px 15px;
+  background-color: cyan;
+  border: 2px solid black;
+  transition: background-color 1s;
+}
+.btn:hover {
+  background-color: rgba(153, 158, 229, 0.514);
+  cursor: pointer;
+}
+.btn:last-child {
+  margin-right: 0;
+}
